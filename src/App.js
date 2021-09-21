@@ -4,6 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <p>npm = Node Package Manager</p>
+      <p>cli = Command Line Interface</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
