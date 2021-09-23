@@ -3,9 +3,13 @@ import Config from '../Config/Config';
 
 const Device = (props) => {
     return (
-        <div>
+        <div style={{ border: "2px solid red", margin: "5px" }}>
+            <h2 style={{ color: "red" }}>Device.js</h2>
             <h2>My device: {props.name}</h2>
-            <Config price={props.price} />
+            <h4>Curret Steps: {props.steps}</h4>
+            <Config price={props.price} steps={props.steps} />
+
+
         </div>
     );
 };
